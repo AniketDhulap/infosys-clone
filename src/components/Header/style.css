@@ -1,0 +1,24 @@
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: var(--text-white);
+}
+
+.search-hamburger-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-icon {
+    width: '100%' !important;
+}

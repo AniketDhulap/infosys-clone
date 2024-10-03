@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@font-face {
+  font-family: 'Tungstun';
+  src: url('./assets/fonts/tungsten.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Myriad';
+  src: url('./assets/fonts/MyriadPro-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad-Pro';
+  src: url('./assets/fonts/MYRIADPRO-REGULAR.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+  font-family: 'Myriad-Pro', 'Arial';
+}
+
+:root {
+  --background-light: #ffffff;
+  --text-white: #ffffff;
+  --text-black: #000000;
+  --text-gray: #7e7e7e;
+  --divider: #e1e1e1;
+  --orange-dark: #aa6603;
+  --orange-light: #df9927;
+  --blue-dark: #0171b1;
+  --pink-dark: #8e2d8e;
+  --blue-extra-dark: #131a4e;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
